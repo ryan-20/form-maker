@@ -44,7 +44,7 @@ const appendButton = (label = "Default") => {
 
     let elem = document.createElement('button')
  
-    elem.setAttribute('class', 'btn btn-primary form-control mt-2')
+    elem.setAttribute('class', 'btn btn-dark form-control mt-2')
     elem.textContent = label
 
     document.querySelector('#display').append(elem)
