@@ -4,11 +4,11 @@ const iadd = () => {
     let label = document.querySelector('#label').value 
 
     switch(type){
-        case 'text': appendText(label)
+        case 'Text': appendText(label)
             break
-        case 'button': appendButton(label)
+        case 'Button': appendButton(label)
             break
-        case 'textfield': appendField(label)
+        case 'Textfield': appendField(label)
             break
         case 'Password': appendPassword(label)
             break 
